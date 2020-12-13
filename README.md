@@ -2,10 +2,10 @@
 
 apollo federationをお試ししてみたrepository
 
-/game
-/review
-/user
-/gateway
+/game  
+/review  
+/user  
+/gateway  
 
 それぞれのディレクトリでapollo serverが立ち上がります。
 
@@ -13,9 +13,9 @@ apollo federationをお試ししてみたrepository
 以下の順番で実行することで全て立ち上がります。
 細かいところは読んでいただけるとありがたいですー。
 
-`npm run i-all`
-`npm run start-services`
-`npm run start-gateway`
+`npm run i-all`  
+`npm run start-services`  
+`npm run start-gateway`  
 
 ## command
 
