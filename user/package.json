@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "nodemon ./index.js"
   },
+  "nodemonConfig": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "@apollo/federation": "^0.20.7",
     "apollo-server": "^2.19.0",
     "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
