@@ -1,0 +1,32 @@
+{
+  "name": "apollo-federation-sample",
+  "version": "1.0.0",
+  "description": "apollo federationをお試ししてみたrepository",
+  "main": "index.js",
+  "scripts": {
+    "start-services": "run-p start:user start:game start:review",
+    "start-gateway": "cd ./gateway && npm run start",
+    "start:user": "cd ./user && npm run start",
+    "start:game": "cd ./game && npm run start",
+    "start:review": "cd ./review && npm run start",
+    "i-all": "run-p i:user i:game i:review i:gateway",
+    "i:user": "cd ./user && npm i",
+    "i:game": "cd ./game && npm i",
+    "i:review": "cd ./review && npm i",
+    "i:gateway": "cd ./gateway && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://savacan@github.com/savacan/apollo-federation-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savacan/apollo-federation-sample/issues"
+  },
+  "homepage": "https://github.com/savacan/apollo-federation-sample#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
